@@ -3,22 +3,68 @@
   width: 100%;
   margin: 0 auto; }
 
+.col {
+  flex: 1;
+  width: auto;
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #901; }
+
 .row {
   display: flex;
-  border: 2px solid red; }
+  border: 2px solid red;
+  width: 100%; }
 
 .col-12 {
   width: 100%;
-  border: 2px solid green; }
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #902; }
 
 .col-6 {
   width: 50%;
-  border: 2px solid pink; }
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #903; }
 
 .col-4 {
   width: 33.33%;
-  border: 2px solid orange; }
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #904; }
 
 .col-3 {
-  width: 66.66%;
-  border: 2px solid orange; }
+  width: 25%;
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #905; }
+
+.col-2 {
+  width: 16.66%;
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #906; }
+
+.col-1 {
+  width: 8.33%;
+  border: 2px solid #888;
+  color: #fff;
+  background-color: #907; }
+
+.between {
+  display: flex;
+  justify-content: space-between; }
+
+.around {
+  display: flex;
+  justify-content: space-around; }
+
+.center {
+  display: flex;
+  justify-content: center; }
+
+.end {
+  display: flex;
+  justify-content: flex-end; }
+
+/* Main Widths */
